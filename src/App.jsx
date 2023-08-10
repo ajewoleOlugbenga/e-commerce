@@ -3,10 +3,15 @@ import Navbar from './components/Navbar';
 import MarketPlace from './components/MarketPlace';
 const App = () => {
   return (
-    <div>
+    <>
+    <header>
       <Navbar/>
-      <MarketPlace/>
-    </div>
+    </header>
+      <main>
+        <MarketPlace/>
+      </main>
+      
+    </>
   )
 }
 
